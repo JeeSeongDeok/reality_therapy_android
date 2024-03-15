@@ -1,15 +1,27 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# 빌드한 파일들 제외 
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# gradle 파일
+.gradle/
+build/
+
+# local sdk 위치 제외
 local.properties
+
+# log 파일
+*.log
+
+# .idea 제외
+.idea
+
+# app/build 제외
+app/build
+
+# version control 제외
+vcs.xml
+
+# Google Services 제외
+# google-services.json
