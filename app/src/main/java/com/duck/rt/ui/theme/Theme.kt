@@ -23,10 +23,10 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Color(0xFF7F3DFF),
-    secondary = Color(0xFFF7F7F7),
-    tertiary = Color(0xFFEA6D7E),
-    background = Color(0xFFF3F2F8)
+    primary = CornflowerBlue,
+    secondary = Alabaster,
+    tertiary = DeepBlush,
+    background = Whisper
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
